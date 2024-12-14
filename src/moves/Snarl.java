@@ -14,7 +14,6 @@ public class Snarl extends SpecialMove {
 
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
-        super.applyOppEffects(pokemon);
 
         pokemon.addEffect(
                 new Effect().stat(Stat.SPECIAL_ATTACK, -1)
